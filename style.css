@@ -1,0 +1,38 @@
+h1{
+    text-align: center; /*This One makes It centered */
+    margin: 5px;
+
+}
+body{
+    margin: 0px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+img {
+    margin: 10px;
+    padding: 0px;
+    width: 70px;
+
+}
+.navbar ul{
+    list-style-type: none; /* This One Hiddes the point before each line.*/
+    background-color: rgb(150, 150, 150); /*It changes the background to gray*/
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color : rgb(255, 255, 255);
+    text-decoration : none; /*It removes the line below each <a> Element*/
+    padding: 15px; /*It makes a tab before the <a> Element*/
+    display: block; /*It makes each Element in a block */
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.navbar li{
+    float: left; /*This thing will make List Order on left to right*/
+}
